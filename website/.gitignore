@@ -1,0 +1,9 @@
+node_modules
+/.cache
+/build
+.env
+.react-router
+.DS_Store
+public/SKILL.md
+public/prompt.md
+.vercel

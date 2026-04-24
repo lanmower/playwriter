@@ -1,0 +1,13 @@
+packages:
+  - ./*
+  - playwright/packages/playwright-core
+
+preferWorkspacePackages: true
+
+onlyBuiltDependencies:
+  - bufferutil
+  - esbuild
+  - sharp
+
+ignoredBuiltDependencies:
+  - electron
